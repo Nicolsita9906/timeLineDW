@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.banner{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;   /* esto evita que se vea estirado */
+    display: block;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+
+.ad{
+    width: 400px;
+    height: 650px;
+    display: block;
+    margin: 0 auto; /* centra el video */
+}
+
+.left-column {
+    width: 70%;
+    float: left;
+}   
+
+.right-column {
+    width: 30%;
+    float: right;
+}
+
+.menu {
+    text-align: center;
+}
+.menu a {
+    display: inline-block;   
+    margin: 0 15px;  
+    color: white;       
+}
+
+.menu a:hover {
+    color: #00e0ff;
+}
+
+.img-evento{
+    width: 400px;        
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto; 
+    border-radius: 20px; 
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+.ad {
+    width: 400px;
+    height: 650px;
+}
