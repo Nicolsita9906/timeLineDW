@@ -1,50 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Line Time</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <h1>Line Time: Internet</h1>
-        <table>
+<!DOCTYPE html> <!-- Indica que el documento usa HTML5 -->
+<html lang="en"> <!-- Inicio del documento HTML, idioma inglés -->
 
-            <tr>
-                <td colspan="3">
-                    <img src="img/banner.jpg" class="banner" alt="BANNER">
-                </td>
-            </tr>
-            <tr>
-                    <td colspan="6" class="menu">
+<head>
+    <meta charset="UTF-8"> <!-- Permite usar caracteres especiales como tildes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Hace que la página sea adaptable a dispositivos móviles -->
 
-                    <h2> Menu</h2>
-                    <a href="index.html">Principal</a>
-                    <a href="html/evento1.html">ARPANET</a>
-                    <a href="html/evento2.html">Primer correo electronico</a>
-                    <a href="html/evento3.html">Primer dominio</a>
-                    <a href="html/evento4.html">Nace la World Wide Web</a>
-                    <a href="html/evento5.html">Nace Google</a>
-                    <a href="html/evento6.html">Facebook</a>
-                    <a href="html/evento7.html">Primer iphone</a>
-                    <a href="html/evento8.html">Era de la IA</a>
-                </td>
-            </tr>
-            <tr>
-                <td class ="left"> 
-                    <video autoplay muted loop playsinline class="ad">
-                        <source src="anuncios/anuncio.mp4" type="video/mp4">
-                    </video>                </td>
-                <td>
-                    <h1>Página principal </h1>
-                    <img src="img/Principal.jpg" alt="pagina principal" class="img-evento">
-                    <p>Bienvenidos a Line Time: Internet, una línea de tiempo interactiva que destaca los eventos más importantes en la historia de Internet. Desde sus inicios con ARPANET hasta la era de la inteligencia artificial</p>
-                </td>
-                <td class="right">
-                    <video autoplay muted loop playsinline class="ad">
-                        <source src="anuncios/anuncio.mp4" type="video/mp4">
-                    </video>
-                </td>
-            </tr>
+    <title>Time Line</title> <!-- Título que aparece en la pestaña del navegador -->
 
-</html>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Conecta el archivo CSS externo para aplicar estilos -->
+</head>
+
+<body>
+
+    <!-- Título principal de bienvenida -->
+    <h1>¡Bienvenidos!</h1>
+
+    <!-- Tabla principal que organiza todo el contenido -->
+    <table>
+
+        <!-- FILA 1: BANNER -->
+        <tr>
+            <td colspan="3">
+                <!-- Imagen tipo banner que ocupa 3 columnas -->
+                <img src="img/banner.jpg" class="banner" alt="BANNER">
+            </td>
+        </tr>
+
+        <!-- FILA 2: MENÚ DE NAVEGACIÓN -->
+        <tr>
+            <td colspan="6" class="menu">
+
+                <!-- Enlaces a las diferentes páginas del proyecto -->
+                <a href="index.html">Principal</a>
+                <a href="html/evento1.html">ARPANET</a>
+                <a href="html/evento2.html">Primer correo electronico</a>
+                <a href="html/evento3.html">Primer dominio</a>
+                <a href="html/evento4.html">Nace la World Wide Web</a>
+                <a href="html/evento5.html">Nace Google</a>
+                <a href="html/evento6.html">Facebook</a>
+                <a href="html/evento7.html">Primer iphone</a>
+                <a href="html/evento8.html">Era de la IA</a>
+
+            </td>
+        </tr>
+
+        <!-- FILA 3: CONTENIDO PRINCIPAL -->
+        <tr>
+
+            <!-- COLUMNA IZQUIERDA: VIDEO PUBLICITARIO -->
+            <td class="left"> 
+                <video autoplay muted loop playsinline class="ad">
+                    <!-- Video que se reproduce automáticamente, sin sonido y en bucle -->
+                    <source src="anuncios/anuncio.mp4" type="video/mp4">
+                </video>
+            </td>
+
+            <!-- COLUMNA CENTRAL: INFORMACIÓN PRINCIPAL -->
+            <td>
+
+
+                <!-- Imagen representativa de la página principal -->
+                <img src="img/Principal.jpg" alt="pagina principal" class="img-evento">
+
+                <!-- Descripción del proyecto -->
+                <p>
+                    Bienvenidos a Line Time: Internet, una línea de tiempo interactiva 
+                    que destaca los eventos más importantes en la historia de Internet. 
+                    Desde sus inicios con ARPANET hasta la era de la inteligencia artificial
+                </p>
+
+            </td>
+
+            <!-- COLUMNA DERECHA: VIDEO PUBLICITARIO -->
+            <td class="right">
+                <video autoplay muted loop playsinline class="ad">
+                    <!-- Segundo video publicitario -->
+                    <source src="anuncios/anuncio.mp4" type="video/mp4">
+                </video>
+            </td>
+
+        </tr>
+
+    </table>
+
+</body> <!-- Fin del contenido visible -->
+
+</html> <!-- Fin del documento HTML -->
